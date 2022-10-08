@@ -10,7 +10,7 @@ this is an *italic* text
 this is a **strong** text
 
 <!--strikethrough-->
-y este es un ~~texto~~ tachado 
+y este es un ~~scratch this~~ tachado 
 (strikethrough)
 
 <!--Unorder List(ul)-->
@@ -75,5 +75,31 @@ print("Hello World")
 
 <!-- GITHUB MARKDOWN -->
 
+* [x] Task 1
+* [ ] Task 2
+* [ ] Task 3
+* [x] Task 4
 
+@gusstis :grinning: :innocent:
+
+Alternatively, for H1 and H2, an underline-ish style:
+
+Alt-H1
+======
+
+Alt-H2
+------
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
 
